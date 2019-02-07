@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Skills from './Skills.js';
+
 class Header extends Component {
   render() {
 	return(
