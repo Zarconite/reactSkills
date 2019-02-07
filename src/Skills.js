@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SkillsCode from './SkillsCode.js';
 import FormComponent from './FormComponent.js';
 import OutputArrayComponent from './OutputArrayComponent.js';
 

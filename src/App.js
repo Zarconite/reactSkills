@@ -2,7 +2,6 @@
  import Nav from './Nav.js';
  import ThinColumn from './ThinColumn.js';
  import Header from './Header.js';
- import SkillsCode from './SkillsCode.js';
 
 class App extends Component {
 	render(){
@@ -15,13 +14,6 @@ class App extends Component {
 		<ThinColumn/>
 		</div>
 		)
-	}
-	componentDidMount(){
-		const script = document.createElement("script");
-		script.src = SkillsCode;
-		script.async = true;
-
-        document.body.appendChild(script);
 	}
 }
 
